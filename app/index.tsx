@@ -361,14 +361,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  navIcon: {
-    fontSize: 20,
-    color: "#111",
-  },
-  profileDot: {
-    width: 22,
-    height: 22,
-    borderRadius: 11,
-    backgroundColor: "#111",
-  },
 });

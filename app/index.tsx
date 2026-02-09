@@ -91,7 +91,25 @@ export default function Index() {
 
           {/* Likes */}
           <Text style={styles.likesText}>
-            Liked by paisley.print.48 and 7 others
+            <Image
+              style={styles.likesAvatar}
+              source={{
+                uri: "https://randomuser.me/api/portraits/men/2.jpg",
+              }}
+            />
+            <Image
+              style={styles.likesAvatar}
+              source={{
+                uri: "https://randomuser.me/api/portraits/men/2.jpg",
+              }}
+            />
+            <Image
+              style={styles.likesAvatar}
+              source={{
+                uri: "https://randomuser.me/api/portraits/men/2.jpg",
+              }}
+            />
+            {"  "}Liked by paisley.print.48 and 7 others
           </Text>
 
           {/* Caption */}
@@ -266,6 +284,12 @@ const styles = StyleSheet.create({
   actionIcon: {
     fontSize: 18,
     color: "#111",
+  },
+
+  likesAvatar: {
+    width: 12,
+    height: 12,
+    borderRadius: 17,
   },
 
   likesText: {

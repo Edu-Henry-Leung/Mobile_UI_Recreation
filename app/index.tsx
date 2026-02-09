@@ -124,9 +124,6 @@ export default function Index() {
         >
           <Text style={styles.alertBtnText}>Alert</Text>
         </TouchableOpacity>
-
-        {/* Spacer so bottom nav doesn't cover content */}
-        <View style={{ height: 90 }} />
       </ScrollView>
 
       {/* Bottom Nav */}

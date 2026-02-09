@@ -34,9 +34,7 @@ export default function Index() {
           <Text style={styles.headerTitle}>Posts</Text>
         </View>
 
-        <TouchableOpacity style={styles.headerIconBtn}>
-          <Text style={styles.headerIcon}>⋯</Text>
-        </TouchableOpacity>
+        <View style={styles.headerIconBtn} />
       </View>
 
       <ScrollView
@@ -356,8 +354,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-around",
-    paddingBottom: 10,
-    paddingTop: 10,
   },
   navItem: {
     width: 48,
